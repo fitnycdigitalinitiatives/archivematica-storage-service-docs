@@ -663,13 +663,13 @@ Fields:
 * **Region**: the region in Swift. This field is optional.
 
 .. note::
-
+   
     Swift cannot be used for transfers containing an object over 5GB
-    (for uncompressed packages) or that are 5GB in total (for compressed packages).
+    (for uncompressed packages) or that are 5GB in total (for compressed packages).   
     This applies to the Transfer Source, Backlog, AIP and DIP Locations.
-
+    
     Any object/package over 5GB must be segmented by the application interacting with
-    Swift, a function which is not currently available for the Swift space.
+    Swift, a function which is not currently available for the Swift space. 
     See the `Swift documentation for large objects`_.
 
 .. _amazon-s3:
@@ -678,7 +678,7 @@ S3 (Amazon)
 +++++++++++
 
 Amazon S3 is available as an access protocol as of Storage Service version 0.12.
-Locations within S3 can be used as AIP Storage, DIP Storage, Replicator and Transfer Source
+Locations within S3 can be used as AIP Storage, Replicator and Transfer Source
 :ref:`locations <location-purposes>`.
 
 Fields:
